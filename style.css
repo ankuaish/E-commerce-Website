@@ -90,7 +90,7 @@ a {
 .container {
   max-width: 142rem;
   margin: 0 auto;
-  padding: 9.6rem 2.4rem;
+  padding: 4.6rem 2.4rem;  /*changes by me */
 }
 
 :is(
@@ -103,7 +103,7 @@ a {
     footer
   )
   .container:first-child {
-  padding: 6.4rem 0 2.4rem 0;
+  padding: 6.4rem 0 2.4rem 0;   /* changes by me */
 }
 
 .grid {
@@ -350,7 +350,7 @@ main .section-hero {
   }
 
   & .hero-para {
-    margin: 2rem 0 4.2rem 0;
+     margin: 0rem 0 4.2rem 0;         /* changes by me */
     color: white;
   }
 }
@@ -1019,7 +1019,7 @@ footer {
       .section-why--choose
     )
     .grid {
-    gap: 6.4rem;
+    gap: 5.4rem; /*changes by me*/
   }
 
   .choose-center-div figure::after {
@@ -1142,7 +1142,6 @@ footer {
   .grid-two--cols {
     grid-template-columns: 1fr;
   }
-
   .section-contact .grid-two--cols {
     grid-template-columns: 1fr;
   }
