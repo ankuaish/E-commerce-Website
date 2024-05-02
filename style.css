@@ -1218,3 +1218,28 @@ footer {
   }
 }
 /***** End  media queries Section *****/
+
+/* changes by me */
+
+@media (width <= 500px) {
+.section-navbar .navbar ul {
+
+  gap: 1rem;
+ 
+}
+.section-navbar img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.footer-container .content_1 img {
+  height: auto;
+  /* width: 15rem; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+}
