@@ -1,4 +1,5 @@
 import { getCartProductFromLS } from "./getCartProduct";
+import { showToast } from "./showToast";
 import { updateCartValue } from "./updateCartValue";
 
 
@@ -28,6 +29,8 @@ if(existingProd && quantity>1){
         return curProd.id === id ? updatedCart : curProd;
     });
     localStorage.setItem("cartProductLS", JSON.stringify(updatedCart));
+
+    showToast("add", id);
 }
 
 if (existingProd){
@@ -42,5 +45,5 @@ if (existingProd){
 
   updateCartValue(arrLocalStorageProduct);
   
-  
+  showToast("add", id);
 };
