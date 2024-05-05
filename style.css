@@ -350,7 +350,7 @@ main .section-hero {
   }
 
   & .hero-para {
-     margin: 0rem 0 4.2rem 0;         /* changes by me */
+     margin: 0rem 0 2.2rem 0;         /* changes by me */
     color: white;
   }
 }
